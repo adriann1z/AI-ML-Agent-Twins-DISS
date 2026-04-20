@@ -1,0 +1,689 @@
+{
+  "state_version": 2,
+  "saved_at": "2026-04-20T00:53:11.619464",
+  "source": "step_15712",
+  "twin_a_version": 33,
+  "twin_b_version": 79,
+  "twin_a_step": 15707,
+  "twin_b_step": 15707,
+  "twin_a_retrains": 32,
+  "twin_b_retrains": 78,
+  "twin_a_acc": 0.5,
+  "twin_b_acc": 0.5,
+  "twin_a_bias": -0.0299,
+  "twin_b_bias": -0.0447,
+  "twin_a_replay_balance": {
+    "buy": 755,
+    "sell": 745,
+    "buy_ratio": 0.5033333333333333
+  },
+  "twin_b_replay_balance": {
+    "buy": 755,
+    "sell": 745,
+    "buy_ratio": 0.5033333333333333
+  },
+  "twin_a_retrains_log": [
+    {
+      "step": 500,
+      "trigger": "time",
+      "acc_before": 0.1667,
+      "acc_after": 0.1667
+    },
+    {
+      "step": 1000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 1500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 2000,
+      "trigger": "time",
+      "acc_before": 0.0,
+      "acc_after": 0.0
+    },
+    {
+      "step": 2500,
+      "trigger": "time",
+      "acc_before": 0.2222,
+      "acc_after": 0.2222
+    },
+    {
+      "step": 3000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 3500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 4000,
+      "trigger": "time",
+      "acc_before": 0.4,
+      "acc_after": 0.4
+    },
+    {
+      "step": 4500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 5000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 5500,
+      "trigger": "time",
+      "acc_before": 0.75,
+      "acc_after": 0.75
+    },
+    {
+      "step": 6000,
+      "trigger": "time",
+      "acc_before": 0.5714,
+      "acc_after": 0.5714
+    },
+    {
+      "step": 6500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 7000,
+      "trigger": "time",
+      "acc_before": 0.0,
+      "acc_after": 0.0
+    },
+    {
+      "step": 7500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 8000,
+      "trigger": "time",
+      "acc_before": 0.7931,
+      "acc_after": 0.7931
+    },
+    {
+      "step": 8500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 9000,
+      "trigger": "time",
+      "acc_before": 0.25,
+      "acc_after": 0.25
+    },
+    {
+      "step": 9500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 10000,
+      "trigger": "time",
+      "acc_before": 1.0,
+      "acc_after": 1.0
+    },
+    {
+      "step": 10500,
+      "trigger": "time",
+      "acc_before": 1.0,
+      "acc_after": 1.0
+    },
+    {
+      "step": 11000,
+      "trigger": "time",
+      "acc_before": 0.1429,
+      "acc_after": 0.1429
+    },
+    {
+      "step": 11500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 12000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 12456,
+      "trigger": "performance",
+      "acc_before": 0.75,
+      "acc_after": 0.75
+    },
+    {
+      "step": 13000,
+      "trigger": "time",
+      "acc_before": 0.5926,
+      "acc_after": 0.5926
+    },
+    {
+      "step": 13500,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 14000,
+      "trigger": "time",
+      "acc_before": 1.0,
+      "acc_after": 1.0
+    },
+    {
+      "step": 14500,
+      "trigger": "time",
+      "acc_before": 0.8,
+      "acc_after": 0.8
+    },
+    {
+      "step": 15000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 15344,
+      "trigger": "performance",
+      "acc_before": 0.4286,
+      "acc_after": 0.4286
+    },
+    {
+      "step": 15500,
+      "trigger": "time",
+      "acc_before": 0.3333,
+      "acc_after": 0.3333
+    }
+  ],
+  "twin_b_retrains_log": [
+    {
+      "step": 200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 1000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 1200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 1400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 1600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 1800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 2000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 2200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 2400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 2600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 2800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 3000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 3200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 3400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 3600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 3800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 4000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 4200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 4400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 4600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 4800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 5000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 5200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 5400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 5600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 5800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 6000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 6200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 6400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 6600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 6800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 7000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 7200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 7400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 7600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 7800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 8000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 8200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 8400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 8600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 8800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 9000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 9200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 9400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 9600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 9800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 10000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 10200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 10400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 10600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 10800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 11000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 11200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 11400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 11600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 11800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 12000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 12200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 12400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 12600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 12800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 13000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 13200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 13400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 13600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 13800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 14000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 14200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 14400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 14600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 14800,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 15000,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 15200,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 15400,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    },
+    {
+      "step": 15600,
+      "trigger": "time",
+      "acc_before": 0.5,
+      "acc_after": 0.5
+    }
+  ]
+}
